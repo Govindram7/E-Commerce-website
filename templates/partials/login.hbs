@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <title>signup page</title>
+</head>
+
+<body>
+    <div class="container-signup">
+        <h2>Login </h2>
+        <div class="form-container">
+            <form action="/login" method="Post">
+            
+                <div class="input-name">
+                    <i class="fa-solid fa-envelope lock"></i>
+                    <input type="email" placeholder=" Email" class="name-a" name="email" autocomplete="off">
+                </div>
+                <div class="input-name">
+                    <i class="fa-solid fa-key lock"></i>
+                    <input type="password" placeholder=" Password" class="name-a" name="password" autocomplete="off">
+                </div>
+                
+                <div class="input-name">
+                    <input type="checkbox" class="check-btn">
+                    <label>I accept the terms and conditions</label>
+                </div>
+
+                <div class="input-name">
+                    <input type="submit" class="submit" value="Login" name="submit">
+                </div>
+                <div class="input-name">
+                    <h4>OR</h4>
+                </div>
+                <div class="input-name">
+                    <a href="/signup" class="div-login">Crerate your Account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

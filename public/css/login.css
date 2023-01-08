@@ -1,0 +1,88 @@
+*{
+    margin :0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+body{
+font-size: 14px;
+background-color:rgb(212, 207, 197);
+background-image: url("../images/login-bg-img.jpg");
+}
+
+.container-signup{
+    background-color: white;
+    width: 500px;
+    margin: 50px auto ;
+    padding: 25px;
+    border-top: 4px solid rgb(238, 38, 38);
+    box-shadow: 0px 0px 5px 7px rgba(0,0,0,0.5);
+}
+.container-signup h2{
+    font-size: 34px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+}
+
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.lock{
+    padding: 8px 11px;
+}
+.input-name .name{
+    width: 45%;
+    padding: 8px 0px 8px 40px;
+}
+.input-name .name-a{
+    width: 100%;
+    padding: 8px 0px 8px 40px;
+}
+
+.input-name span {
+    margin-left: 35px;
+}
+
+.text-name{
+    width: 100%;
+    padding: 8px 0px 8px 40px ;
+}
+
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    border-right: 1px solid gray;
+    color: rgb(238, 38, 38);
+}
+
+.input-name .submit{
+    font-size: 18px;
+    padding: 10px 175px;
+    text-align: center; 
+    background-color: rgb(238, 38, 38);
+    text-decoration: none;
+    color: white;
+}
+
+
+.input-name h4{
+    font-size: 24px;
+    line-height: 10px;
+    padding: 10px 180px;
+    text-align: center; 
+}
+
+
+.input-name .div-login{
+    font-size: 18px;
+    padding: 8px 114px;
+    text-align: center; 
+    background-color: rgb(238, 38, 38);
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+}
